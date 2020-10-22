@@ -41,12 +41,12 @@ jobs:
             cc: "clang", cxx: "clang++",
             build_target: "GuiAppExample"
           }
-         - {
-             name: "macOS Latest Clang", artifact: "macOS.tar.xz",
-             os: macos-latest,
-             cc: "clang", cxx: "clang++",
-             build_target: "GuiAppExample"
-           }
+        - {
+            name: "macOS Latest Clang", artifact: "macOS.tar.xz",
+            os: macos-latest,
+            cc: "clang", cxx: "clang++",
+            build_target: "GuiAppExample"
+          }
 
     steps:
     - uses: actions/checkout@v2.3.3
